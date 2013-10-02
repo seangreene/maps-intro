@@ -2,9 +2,66 @@
 <html lang="en">
 <head>
 	<title>Maps Intro</title>
+	<style type='text/css'>
+	
+	  .wax-legend {
+		position: absolute;
+		top: 420px;
+		left: 80px;
+	  }
+	
+	  .wax-legend .legend-title {
+	    text-align: left;
+	    margin-bottom: 8px;
+	    font-weight: bold;
+	    font-size: 90%;
+	    }
+	  .wax-legend .legend-scale ul {
+	    margin: 0;
+	    padding: 0;
+	    float: left;
+	    list-style: none;
+	    }
+	  .wax-legend .legend-scale ul li {
+	    display: block;
+	    float: left;
+	    width: 50px;
+	    margin-bottom: 6px;
+	    text-align: center;
+	    font-size: 80%;
+	    list-style: none;
+	    }
+	  .wax-legend ul.legend-labels li span {
+	    display: block;
+	    float: left;
+	    height: 15px;
+	    width: 50px;
+	    }
+	  .wax-legend .legend-source {
+	    font-size: 70%;
+	    color: #999;
+	    clear: both;
+	    }
+	  .wax-legend a {
+	    color: #777;
+	    }
+	</style>
 </head>
 <body>
-	<img src="/Users/seangreene/dataviz-fall-2013/maps-intro/Rplot.jpeg" width="402" height="498" alt="Rplot">
+	<img src="Rplot.jpeg" width="402" height="498" alt="Rplot">
+	
+	<div class='wax-legend'>
+	<div class='legend-scale'>
+	  <ul class='legend-labels'>
+	    <li><span style='background:#FFFFB2;'></span>0 - 20%</li>
+	    <li><span style='background:#FECC5C;'></span>40%</li>
+	    <li><span style='background:#FD8D3C;'></span>60%</li>
+	    <li><span style='background:#F03B20;'></span>80%</li>
+	    <li><span style='background:#BD0026;'></span>100%</li>
+	  </ul>
+	</div>
+	<div class='legend-source'>Source: <a href="http://github.com/shancarter/ucb-dataviz-fall-2013">Shavin, data experts/gurus/ninjas</a></div>
+	</div>
 
 </body>
 </html>
